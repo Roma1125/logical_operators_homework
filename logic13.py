@@ -6,5 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-     return (((a%10)+(a//10))%2==0)
+    return (((a%10)+(a//10))%2==0)
 print (main(44))
