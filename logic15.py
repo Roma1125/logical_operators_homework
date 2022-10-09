@@ -6,5 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return (((a%10)+(a//100)+((a//10)%10)%2==1))
-print (main(444))
+    return ((((a%10)+(a//100)+((a//10)%10))%2==1))
+print (main(445)) 
